@@ -1,0 +1,291 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(to right, #456bb2, #1368c9);
+    color: #fff;
+}
+main {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(to right, #141E30, #243B55);
+    color: #fff;
+}
+main {
+    max-width: auto px; /* Adjust max-width as per your design */
+    margin: auto; /* Center align and maintain equal margins */
+    padding: 10rem; /* Add padding for inner content */
+}
+
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+p, ul, li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Navigation Bar */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 0.4rem 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: -webkit-flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background: rgba(0, 0, 0, 0.7);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #00bcd4;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+header a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Accordion */
+button.accordion {
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.4s;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #555;
+}
+
+div.panel {
+    padding: 0 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    overflow: hidden;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal.open {
+    display: flex;
+}
+
+.modal img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.7rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+/* Projects Section */
+#projects {
+    padding: 2rem;
+    background: linear-gradient(to right, #141E30, #243B55);
+    margin-bottom: 2rem;
+}
+
+.project {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #555;
+    padding-bottom: 1rem;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #2edada;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ccc;
+}
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tabs and 3D Background */
+.tabs-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center align tabs horizontally */
+    align-items: center; /* Center align tabs vertically */
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    padding: 1rem 0;
+}
+
+.tab {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.background-3d {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        /* Front */
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        /* Left */
+        linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        /* Right */
+        linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        /* Top */
+        linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        /* Bottom */
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-size: 50% 100%, 50% 100%, 100% 50%, 100% 50%;
+    background-position: left top, right top, left bottom, left top;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Highlight Active Tab */
+.tab.active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
