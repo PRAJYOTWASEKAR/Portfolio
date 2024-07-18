@@ -57,7 +57,8 @@ Portfolio/
 ├── images/
 ├── README.md
 └── LICENSE
-Files
+```
+## Files
 index.html: The main HTML file containing the structure of the portfolio.
 style.css: The CSS file for styling the portfolio.
 script.js: The JavaScript file for adding functionality to the portfolio.
