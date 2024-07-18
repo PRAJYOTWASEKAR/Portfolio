@@ -59,19 +59,21 @@ Portfolio/
 └── LICENSE
 ```
 ## Files
-index.html: The main HTML file containing the structure of the portfolio.
-style.css: The CSS file for styling the portfolio.
-script.js: The JavaScript file for adding functionality to the portfolio.
-images/: A directory containing images used in the portfolio.
-README.md: The file you are currently reading, containing information about the project.
-LICENSE: The license file for the project.
-Contributions
+
+- index.html: The main HTML file containing the structure of the portfolio.
+- style.css: The CSS file for styling the portfolio.
+- script.js: The JavaScript file for adding functionality to the portfolio.
+- images/: A directory containing images used in the portfolio.
+- README.md: The file you are currently reading, containing information about the project.
+## LICENSE: The license file for the project.
+
+## Contributions
 Contributions are welcome! If you have any suggestions or improvements, please feel free to create a pull request or open an issue.
 
-License
+## License
 This project is open-source and available under the MIT License. See the LICENSE file for more information.
 
-Contact
+## Contact
 If you have any questions or feedback, please reach out to me at prajyotwasekar7620@gmail.com.
 
 You can also connect with me on LinkedIn.
